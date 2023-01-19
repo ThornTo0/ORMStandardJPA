@@ -1,6 +1,4 @@
-package jpabook.jpashop;
-
-import jpabook.jpashop.domain.Member;
+package totalEx_jpabook.jpashop;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

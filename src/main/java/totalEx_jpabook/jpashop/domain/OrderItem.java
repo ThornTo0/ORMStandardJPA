@@ -1,4 +1,4 @@
-package jpabook.jpashop.domain;
+package totalEx_jpabook.jpashop.domain;
 
 
 import lombok.Getter;
@@ -17,8 +17,7 @@ public class OrderItem {
     private Long id;
 
     @Column(name = "MEMBER_ID")
-    private String name;
-
+    private String order_id;
     @Column(name = "ITEM_ID")
     private Long itemId;
     private int orderPrice;
